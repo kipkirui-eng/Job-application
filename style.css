@@ -305,7 +305,7 @@ html{
 }
 .job-card img{
     width: 100%;
-    height: 270px;
+    height: 500px;
     object-fit: cover;
     display: block;
 }
@@ -425,4 +425,81 @@ html{
     background-color: #c6a15b;
     color: #102a43;
     transform: translate(-4px);
+}
+.about-banner{
+    background: #102a43;
+    padding: 90px;
+    text-align: center;
+    color: white;
+}
+.about-banner-content{
+    max-width: 800px;
+    margin: auto;
+}
+.about-banner span{
+    color: #c6a15b;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.about-banner h1{
+    font-size: 42px;
+    margin: 18px 0;
+}
+.about-banner p{
+    color: #d5dfeb;
+    line-height: 1.7;
+}
+.about-intro{
+    padding: 80px 7%;
+    background: white;
+}
+.about-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+}
+.about-image img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.about-text h2{
+    color: #102a43;
+    font-size: 36px;
+    line-height: 1.3;
+    margin: 18px 0;
+}
+.about-text h2 span{
+    color: #c6a15b;
+}
+.about-text p{
+    color: #536477;
+    line-height: 1.8;
+    margin-bottom: 18px;
+}
+.mission-section{
+    padding: 70px 7%;
+    background: #f5f7fa;
+}
+.mission-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.mission-card{
+    background: white;
+    padding: 35px;
+    border-radius: 10px;
+    border-left: 4px solid #c6a15b;
+}
+.mission-card h3{
+    color: #102a43;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.mission-card p{
+    color: #536477;
+    line-height: 1.8;
 }
