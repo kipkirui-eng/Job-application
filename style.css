@@ -231,6 +231,20 @@ html{
     .about-cta h2{
         font-size: 26px;
     }
+    .services-banner h1{
+        font-size: 31px;
+
+    }
+    .service-intro h2,
+    .how-heading h2{
+        font-size: 28px;
+    }
+    .steps-container{
+        grid-template-columns: 1fr;
+    }
+    .services-cta h2{
+        font-size: 26px;
+    }
     .footer{
         padding: 40px 6% 0;
     }
@@ -241,6 +255,7 @@ html{
     .footer-about{
         grid-column: 1/ -1;
     }
+
 
 }
 @media(max-width: 450px) {
@@ -630,4 +645,143 @@ html{
 .about-cta a:hover{
     background: #c6a15b;
     color: #102a43;
+}
+
+.services-banner{
+    background: #102a43;
+    padding: 90px 7%;
+    text-align: center;
+    color: white;
+}
+.services-banner-content{
+    max-width: 750px;
+    margin: auto;
+}
+.services-banner span,
+.section-label{
+    color: #c6a15b;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.services-banner h1{
+    font-size: 42px;
+    margin: 18px 0;
+}
+.services-banner p{
+    color: #d5dfeb;
+    line-height: 1.8;
+}
+.services-intro{
+    text-align: center;
+    padding: 75px 7% 35px;
+    max-width: 850px;
+    margin: auto;
+}
+.services-intro h2{
+    color: #102a43;
+    font-size: 34px;
+    margin: 15px 0;
+}
+.service-intro p{
+    color: #596b7c;
+    line-height: 1.8;
+}
+.services-list{
+    padding: 40px 7% 80px;
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+
+}
+.service-card{
+    padding: 32px 25px;
+    background: #f5f7fa;
+    border-radius: 10px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.service-card:hover{
+    transform: translate(-6px);
+    border-bottom-color: #c6a15b;
+    box-shadow: 0 10px 25px rgb(16, 42, 67, 0.08);
+}
+.service-icon{
+    width: 55px;
+    height: 55px;
+    background: #102a43;
+    color: #c6a15b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 23px;
+    margin-bottom: 22px;
+}
+.service-card h3{
+    color: #102a43;
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+.service-card p{
+    color: #596b7c;
+    font-size: 14px;
+    line-height: 1.8;
+}
+.how-we-work{
+    padding: 80px 7%;
+    background: #f5f7fa;
+}
+.how-heading{
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto 45px;
+}
+.how-heading h2{
+    color: #102a43;
+    font-size: 34px;
+    margin: 15px 0;
+}
+.how-heading p{
+    color: #596b7c;
+    line-height: 1.8;
+}
+.steps-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+.step-card{
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+.step-card span{
+    color: #c6a15b;
+    font-size: 28px;
+    font-weight: bold;
+}
+.step-card h3{
+    color: #102a43;
+    margin: 15px 0;
+}
+.step-card p{
+    color: #596b7c;
+    line-height: 1.8;
+}
+.services-cta{
+    background: #102a43;
+    padding: 75px 7%;
+    text-align: center;
+    color: white;
+}
+.services-cta h2{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.services-cta p{
+    color: #d5dfeb;
+    line-height: 1.8;
+    margin-bottom: 20px;
 }
