@@ -26,7 +26,7 @@ if (contactForm) {
     document.getElementById("subject").value;
         const message =
     document.getElementById("message").value;
-        const whatsappNumber= "2547xxxxxx"
+        const whatsappNumber= "254758185711"
         const whatsappMessage= `Hello Jawabu Manpower Consultancy ,
 
     Name:${name}
