@@ -288,7 +288,7 @@ html{
         flex-direction: column;
         align-items: flex-start;
     }
-    .contact.form input,
+    .contact-form input,
     .contact-form textarea,
     .contact-form select {
         width: 100%;
