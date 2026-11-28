@@ -1049,3 +1049,58 @@ html{
     height: 400px;
     border: none;
 }
+
+@media only screen and (max-width: 768px) {
+
+    .contact-section {
+        padding: 40px 15px;
+    }
+
+    .contact-container {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 30px;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    .contact-info,
+    .contact-form-container {
+        width: 100%;
+        min-width: 0;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .contact-form-container {
+        padding: 25px 20px;
+    }
+
+    .contact-form input,
+    .contact-form select,
+    .contact-form textarea {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .contact-detail {
+        gap: 12px;
+    }
+
+    .whatsapp-section {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 35px 20px;
+    }
+
+    .map-container {
+        height: 300px;
+    }
+
+    .map-container iframe {
+        height: 300px;
+    }
+}
